@@ -1,0 +1,9 @@
+<% 
+showImg = (db) => {
+    let xhtml = '';
+    db.forEach(elm => {
+        xhtml+=`<div class="card" value='${JSON.stringify(elm)}'><img src="${elm.backImg}" alt="${elm.type}"></div>`
+    })
+    return xhtml;
+}
+%>

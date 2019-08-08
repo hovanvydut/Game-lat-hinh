@@ -1,0 +1,114 @@
+[
+	{
+		"id": 1,
+		"frontImg": "img/01.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon01"
+	},
+	{
+		"id": 2,
+		"frontImg": "img/02.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon02"
+	},
+	{
+		"id": 3,
+		"frontImg": "img/03.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon03"
+	},
+	{
+		"id": 4,
+		"frontImg": "img/04.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon04"
+	},
+	{
+		"id": 5,
+		"frontImg": "img/05.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon05"
+	},
+	{
+		"id": 6,
+		"frontImg": "img/06.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon06"
+	},
+	{
+		"id": 7,
+		"frontImg": "img/07.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon07"
+	},
+	{
+		"id": 8,
+		"frontImg": "img/08.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon08"
+	},
+	{
+		"id": 9,
+		"frontImg": "img/01.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon01"
+	},
+	{
+		"id": 10,
+		"frontImg": "img/02.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon02"
+	},
+	{
+		"id": 11,
+		"frontImg": "img/03.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon03"
+	},
+	{
+		"id": 12,
+		"frontImg": "img/04.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon04"
+	},
+	{
+		"id": 13,
+		"frontImg": "img/05.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon05"
+	},
+	{
+		"id": 14,
+		"frontImg": "img/06.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon06"
+	},
+	{
+		"id": 15,
+		"frontImg": "img/07.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon07"
+	},
+	{
+		"id": 16,
+		"frontImg": "img/08.png",
+		"backImg": "img/back.jpg",
+		"flipped": true,
+		"type": "pokemon08"
+	}
+]
