@@ -7,14 +7,15 @@ const port = 5000;
 app.set("view engine", "ejs");
 app.set("views", "./views");
 
+express.static("/");
 app.use(express.static("public"));
 
 // read data
 let db = JSON.parse(fs.readFileSync("db.json", { encoding: "utf8" }));
 
-app.get("/", (req, res, next) => {
+app.get("/games/PurblePair", (req, res, next) => {
 	res.render("home.ejs", {
-		title: "HomePage",
+		title: "Purble Pair",
 		message: "Hulle",
 		db: db
 	});

@@ -16,6 +16,7 @@ for (card of cards) {
 	card.addEventListener("click", open);
 }
 
+// Hàm kiểm tra xem lượt Click hiện tại đang thuộc người chơi nào(user1 hay user2)
 function activeUser(num) {
 	if ((num - 1) % 4 === 0 || (num - 2) % 4 === 0) {
 		return 1;
@@ -23,16 +24,30 @@ function activeUser(num) {
 	return 2;
 }
 
+// Hàm tạo thông báo sau khi endgame
+function endGame() {
+	if (finished.length === cards.length / 2) {
+		if (score1 > score2) {
+			window.alert("User 1 win");
+		} else if (score1 < score2) {
+			window.alert("User 2 win");
+		} else {
+			window.alert("User1 === User2");
+		}
+	}
+}
+
 function open() {
 	countClick++;
 
 	if (activeUser(countClick) === 1) {
 		console.log("user 1");
-		// score1HTML.parrentElement.style.background = 'red'
+		score1HTML.parentNode.style.background = "red";
+		score2HTML.parentNode.style.background = "white";
 	} else {
 		console.log("user 2");
-
-		// score2HTML.textContent = `Score: ${score2}`;
+		score1HTML.parentNode.style.background = "white";
+		score2HTML.parentNode.style.background = "red";
 	}
 
 	// render score into view
@@ -79,16 +94,5 @@ function open() {
 				cardStorage = [];
 			}, 800);
 		}
-	}
-}
-
-// Kiểm tra để end game
-if (finished.length === cards.length / 2) {
-	if (score1 > score2) {
-		window.alert("User 1 win");
-	} else if (score1 < score2) {
-		window.alert("User 2 win");
-	} else {
-		window.alert("User1 === User2");
 	}
 }
