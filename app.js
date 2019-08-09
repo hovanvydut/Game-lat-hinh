@@ -11,13 +11,6 @@ app.use(express.static("public"));
 
 // read data
 let db = JSON.parse(fs.readFileSync("db.json", { encoding: "utf8" }));
-for (elm of db) {
-	elm.order = Math.random();
-}
-db.sort((a, b) => {
-	return a.order - b.order;
-});
-console.log(db);
 
 app.get("/", (req, res, next) => {
 	res.render("home.ejs", {
